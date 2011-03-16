@@ -1,0 +1,18 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "helloWorldAction:"
+	);
+	Super = NSObject;
+    };
+    MyController = {
+	Actions = (
+	    "helloWorldAction:"
+	);
+	Outlets = (
+	    outLabel
+	);
+	Super = NSObject;
+    };
+}
