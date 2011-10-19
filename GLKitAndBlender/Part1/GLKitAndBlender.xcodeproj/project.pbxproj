@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65E80C3B144D877A002B1560 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E80C3A144D877A002B1560 /* UIKit.framework */; };
+		65E80C3D144D877A002B1560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E80C3C144D877A002B1560 /* Foundation.framework */; };
+		65E80C3F144D877A002B1560 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E80C3E144D877A002B1560 /* CoreGraphics.framework */; };
+		65E80C45144D877A002B1560 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65E80C43144D877A002B1560 /* InfoPlist.strings */; };
+		65E80C47144D877A002B1560 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E80C46144D877A002B1560 /* main.m */; };
+		65E80C4B144D877A002B1560 /* GLKitAndBlenderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E80C4A144D877A002B1560 /* GLKitAndBlenderAppDelegate.m */; };
+		65E80C4E144D877A002B1560 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E80C4C144D877A002B1560 /* MainStoryboard_iPhone.storyboard */; };
+		65E80C51144D877A002B1560 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E80C4F144D877A002B1560 /* MainStoryboard_iPad.storyboard */; };
+		65E80C54144D877A002B1560 /* GLKitAndBlenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E80C53144D877A002B1560 /* GLKitAndBlenderViewController.m */; };
+		65E80C5C144D87B9002B1560 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E80C5A144D87B9002B1560 /* GLKit.framework */; };
+		65E80C5D144D87B9002B1560 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E80C5B144D87B9002B1560 /* OpenGLES.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65E80C36144D877A002B1560 /* GLKitAndBlender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLKitAndBlender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E80C3A144D877A002B1560 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65E80C3C144D877A002B1560 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65E80C3E144D877A002B1560 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65E80C42144D877A002B1560 /* GLKitAndBlender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLKitAndBlender-Info.plist"; sourceTree = "<group>"; };
+		65E80C44144D877A002B1560 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65E80C46144D877A002B1560 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65E80C48144D877A002B1560 /* GLKitAndBlender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLKitAndBlender-Prefix.pch"; sourceTree = "<group>"; };
+		65E80C49144D877A002B1560 /* GLKitAndBlenderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLKitAndBlenderAppDelegate.h; sourceTree = "<group>"; };
+		65E80C4A144D877A002B1560 /* GLKitAndBlenderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLKitAndBlenderAppDelegate.m; sourceTree = "<group>"; };
+		65E80C4D144D877A002B1560 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		65E80C50144D877A002B1560 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		65E80C52144D877A002B1560 /* GLKitAndBlenderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLKitAndBlenderViewController.h; sourceTree = "<group>"; };
+		65E80C53144D877A002B1560 /* GLKitAndBlenderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLKitAndBlenderViewController.m; sourceTree = "<group>"; };
+		65E80C5A144D87B9002B1560 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		65E80C5B144D87B9002B1560 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E80C33144D877A002B1560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E80C5C144D87B9002B1560 /* GLKit.framework in Frameworks */,
+				65E80C5D144D87B9002B1560 /* OpenGLES.framework in Frameworks */,
+				65E80C3B144D877A002B1560 /* UIKit.framework in Frameworks */,
+				65E80C3D144D877A002B1560 /* Foundation.framework in Frameworks */,
+				65E80C3F144D877A002B1560 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65E80C2B144D877A002B1560 = {
+			isa = PBXGroup;
+			children = (
+				65E80C5A144D87B9002B1560 /* GLKit.framework */,
+				65E80C5B144D87B9002B1560 /* OpenGLES.framework */,
+				65E80C40144D877A002B1560 /* GLKitAndBlender */,
+				65E80C39144D877A002B1560 /* Frameworks */,
+				65E80C37144D877A002B1560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65E80C37144D877A002B1560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E80C36144D877A002B1560 /* GLKitAndBlender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E80C39144D877A002B1560 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65E80C3A144D877A002B1560 /* UIKit.framework */,
+				65E80C3C144D877A002B1560 /* Foundation.framework */,
+				65E80C3E144D877A002B1560 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65E80C40144D877A002B1560 /* GLKitAndBlender */ = {
+			isa = PBXGroup;
+			children = (
+				65E80C49144D877A002B1560 /* GLKitAndBlenderAppDelegate.h */,
+				65E80C4A144D877A002B1560 /* GLKitAndBlenderAppDelegate.m */,
+				65E80C4C144D877A002B1560 /* MainStoryboard_iPhone.storyboard */,
+				65E80C4F144D877A002B1560 /* MainStoryboard_iPad.storyboard */,
+				65E80C52144D877A002B1560 /* GLKitAndBlenderViewController.h */,
+				65E80C53144D877A002B1560 /* GLKitAndBlenderViewController.m */,
+				65E80C41144D877A002B1560 /* Supporting Files */,
+			);
+			path = GLKitAndBlender;
+			sourceTree = "<group>";
+		};
+		65E80C41144D877A002B1560 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65E80C42144D877A002B1560 /* GLKitAndBlender-Info.plist */,
+				65E80C43144D877A002B1560 /* InfoPlist.strings */,
+				65E80C46144D877A002B1560 /* main.m */,
+				65E80C48144D877A002B1560 /* GLKitAndBlender-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65E80C35144D877A002B1560 /* GLKitAndBlender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E80C57144D877A002B1560 /* Build configuration list for PBXNativeTarget "GLKitAndBlender" */;
+			buildPhases = (
+				65E80C32144D877A002B1560 /* Sources */,
+				65E80C33144D877A002B1560 /* Frameworks */,
+				65E80C34144D877A002B1560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLKitAndBlender;
+			productName = GLKitAndBlender;
+			productReference = 65E80C36144D877A002B1560 /* GLKitAndBlender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E80C2D144D877A002B1560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 65E80C30144D877A002B1560 /* Build configuration list for PBXProject "GLKitAndBlender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65E80C2B144D877A002B1560;
+			productRefGroup = 65E80C37144D877A002B1560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65E80C35144D877A002B1560 /* GLKitAndBlender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65E80C34144D877A002B1560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E80C45144D877A002B1560 /* InfoPlist.strings in Resources */,
+				65E80C4E144D877A002B1560 /* MainStoryboard_iPhone.storyboard in Resources */,
+				65E80C51144D877A002B1560 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E80C32144D877A002B1560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E80C47144D877A002B1560 /* main.m in Sources */,
+				65E80C4B144D877A002B1560 /* GLKitAndBlenderAppDelegate.m in Sources */,
+				65E80C54144D877A002B1560 /* GLKitAndBlenderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65E80C43144D877A002B1560 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E80C44144D877A002B1560 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65E80C4C144D877A002B1560 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E80C4D144D877A002B1560 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		65E80C4F144D877A002B1560 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E80C50144D877A002B1560 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65E80C55144D877A002B1560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65E80C56144D877A002B1560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65E80C58144D877A002B1560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLKitAndBlender/GLKitAndBlender-Prefix.pch";
+				INFOPLIST_FILE = "GLKitAndBlender/GLKitAndBlender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65E80C59144D877A002B1560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLKitAndBlender/GLKitAndBlender-Prefix.pch";
+				INFOPLIST_FILE = "GLKitAndBlender/GLKitAndBlender-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65E80C30144D877A002B1560 /* Build configuration list for PBXProject "GLKitAndBlender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E80C55144D877A002B1560 /* Debug */,
+				65E80C56144D877A002B1560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E80C57144D877A002B1560 /* Build configuration list for PBXNativeTarget "GLKitAndBlender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E80C58144D877A002B1560 /* Debug */,
+				65E80C59144D877A002B1560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65E80C2D144D877A002B1560 /* Project object */;
+}
